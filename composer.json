@@ -1,0 +1,30 @@
+{
+    "name": "jfvil/integro",
+    "description": "test technitial integro",
+    "require": {
+        "illuminate/database": "^7.0@dev",
+        "league/route": "dev-master",
+        "zendframework/zend-diactoros": "^2.1@dev",
+        "zendframework/zend-httphandlerrunner": "^1.1@dev",
+        "league/container": "dev-master",
+        "symfony/routing": "^5.0@dev",
+        "slim/slim": "4.x-dev",
+        "phroute/phroute": "dev-master",
+        "bramus/router": "dev-master",
+        "illuminate/http": "^7.0@dev"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "myapp/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Fernando Villadiego Madera",
+            "email": "jfvilladiego3@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
