@@ -11,7 +11,8 @@
         "slim/slim": "4.x-dev",
         "phroute/phroute": "dev-master",
         "bramus/router": "dev-master",
-        "illuminate/http": "^7.0@dev"
+        "illuminate/http": "^7.0@dev",
+        "polarising/bcrypt": "dev-master"
     },
     "require-dev": {
     },

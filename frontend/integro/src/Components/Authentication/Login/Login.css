@@ -1,0 +1,20 @@
+.background_login{
+
+}
+
+.myCard{
+  background: white;
+  border-radius: 2px;
+  padding: 15px;
+  height: 300px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.12), 0px 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+.login{
+  position: relative;
+  margin-top: 35%;
+}
+
+.input_large{
+  width: 100%!important;
+}

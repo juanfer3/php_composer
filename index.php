@@ -1,9 +1,13 @@
 <?php
-header("Access-Control-Allow-Origin: *");
-header("Access-Control-Allow-Methods: POST, PUT, DELETE, GET, OPTIONS");
-header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept, Authorization, auth, user");
+
+header("access-control-allow-origin: http://localhost:3000");
 
 require './vendor/autoload.php';
+
+
 require './config/database.php';
+
 require './routes/route.php';
 
+$headers = apache_response_headers();
+return var_dump($headers);

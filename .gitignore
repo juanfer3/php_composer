@@ -1,2 +1,23 @@
 /vendor
 composer.lock
+
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/frontend/integro/node_modules
+/frontend/integro/.pnp
+/frontend/integro.pnp.js
+/frontend/integro# testing
+/frontend/integro/coverage
+/frontend/integro# production
+/frontend/integro/build
+/frontend/integro# misc
+/frontend/integro.DS_Store
+/frontend/integro.env.local
+/frontend/integro.env.development.local
+/frontend/integro.env.test.local
+/frontend/integro.env.production.local
+/frontend/integronpm-debug.log*
+/frontend/integroyarn-debug.log*
+/frontend/integroyarn-error.log*
